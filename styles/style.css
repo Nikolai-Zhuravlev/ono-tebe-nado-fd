@@ -36,6 +36,8 @@
 .header__logo {
   display: block;
   width: 148px;
+  height: 105px;
+  overflow: hidden;
 }
 
 .address {
@@ -139,7 +141,7 @@
   color: #fff;
   background: transparent;
   border: 1px solid #fff;
-  padding: 11px 32px;
+  padding: 11.5px 32px;
   cursor: pointer;
   white-space: nowrap;
 }
