@@ -230,12 +230,16 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 120px 24px 180px;
+  padding: 155px 24px 180px;
 }
 
 .about__column {
   display: flex;
   flex-direction: column;
+}
+
+.about__column:last-child {
+  padding-top: 98px;
 }
 
 .about__logo {
@@ -274,8 +278,9 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  padding: 41px 50px;
+  align-items: start;
+  padding: 0 50px;
+  min-height: 180px;
 }
 
 .footer__address {
