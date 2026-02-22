@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 94px 50px;
+  padding: 92px 50px 96px;
 }
 
 .header__menu {
@@ -48,7 +48,7 @@
 }
 
 .address__link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .header__address {
@@ -82,6 +82,9 @@
 .cover__title {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   font-size: 100px;
   font-weight: bold;
   line-height: 115%;
@@ -222,6 +225,7 @@
   line-height: 23px;
   color: inherit;
   padding-left: 40px;
+  padding-bottom: 2px;
 }
 
 /* about */
@@ -230,7 +234,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 155px 24px 180px;
+  padding: 155px 24px 183px;
 }
 
 .about__column {
