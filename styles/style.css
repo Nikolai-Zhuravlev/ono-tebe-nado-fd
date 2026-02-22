@@ -139,7 +139,7 @@
   color: #fff;
   background: transparent;
   border: 1px solid #fff;
-  padding: 12px 32px;
+  padding: 11px 32px;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -164,12 +164,12 @@
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .lots__card-list-item {
   width: 334px;
-  min-height: 596px;
+  height: 596px;
 }
 
 .card-link {
@@ -225,7 +225,6 @@
   line-height: 23px;
   color: inherit;
   padding-left: 40px;
-  padding-bottom: 2px;
 }
 
 /* about */
@@ -284,7 +283,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   padding: 0 50px;
-  min-height: 180px;
+  height: 180px;
 }
 
 .footer__address {
