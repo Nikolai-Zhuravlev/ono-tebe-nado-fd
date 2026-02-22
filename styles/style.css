@@ -171,7 +171,7 @@
 
 .lots__card-list-item {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -285,7 +285,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   padding: 0 50px;
-  height: 180px;
+  min-height: 180px;
 }
 
 .footer__address {
