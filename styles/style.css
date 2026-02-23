@@ -25,7 +25,6 @@
   font-size: 18px;
   line-height: 21px;
   text-decoration: underline;
-  text-transform: uppercase;
   white-space: nowrap;
 }
 
@@ -307,7 +306,6 @@
   font-size: 18px;
   line-height: 21px;
   text-decoration: underline;
-  text-transform: uppercase;
 }
 
 .footer__menu-link_active {
